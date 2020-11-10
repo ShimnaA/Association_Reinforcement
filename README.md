@@ -36,6 +36,21 @@
  - herb & pepper and ground beef (0.015998)
  ---------------------------------------------------------------
       
-    
+***Reinforcement Learning***
+
+    - Upper Confidence Bound
+    - Dataset : Ads_CTR_Optimisation.csv  (Simulation of online user clicks)
+    - [Eachrow contains user with 1 if clicks on the add 0 else]
+    - Problem: determine the Ad on which users click the most as fast as possible
+    - Assumption : Each ads has a fixed conversion rate
                   
+    - Implement the algorithm
+    - Ad 5 is the most clicked one
+    - The Algorithm get the result in 1000 samples
+    - The Algorithm is not able to find the result in 500 samples
+    
+--------------------------------------------------
+    
+    
+    
      
