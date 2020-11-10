@@ -22,3 +22,20 @@
          
   - Result - fromage blanc and honey are bought together 
   ------------------------------------------------------------------------
+ 
+ - Eclat
+ 
+ - Trivial and much faster approach
+ - Simplified version of Apriori
+ - Considers only Support
+     - Support(P) = # Customers Basket containing P / total # Customer Baskets
+     - P the set of 2 products
+     
+ - Train apriori model with the dataset.
+ - Result is taken as the set of products with highest support value
+ - herb & pepper and ground beef (0.015998)
+ ---------------------------------------------------------------
+      
+    
+                  
+     
