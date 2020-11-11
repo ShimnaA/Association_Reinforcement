@@ -38,7 +38,8 @@
       
 ***Reinforcement Learning***
 
-    - Upper Confidence Bound
+***Upper Confidence Bound***
+
     - Dataset : Ads_CTR_Optimisation.csv  (Simulation of online user clicks)
     - [Eachrow contains user with 1 if clicks on the add 0 else]
     - Problem: determine the Ad on which users click the most as fast as possible
@@ -48,6 +49,14 @@
     - Ad 5 is the most clicked one
     - The Algorithm get the result in 1000 samples
     - The Algorithm is not able to find the result in 500 samples
+    
+    
+***Thompson Sampling***
+     - Dataset : Ads_CTR_Optimisation.csv  (Simulation of online user clicks)
+     
+     - Implement the Algorithm
+     - Thompson Sampling algorithm is quicker than UCB. 
+     - With 500 Samples, itself we could make out that Ad5 outweighs all the other
     
 --------------------------------------------------
     
